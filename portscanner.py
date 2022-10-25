@@ -54,7 +54,7 @@ def scan_port (ip, port) :
 
 if __name__== "__main__":
 
-    #this is for multiple variable
+    #this is for multiple variables
     targets = input ('[+] Enter Targets To Scan : (For multiple target just tseperate them with ',') ')
 
 
