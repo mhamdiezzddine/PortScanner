@@ -1,7 +1,7 @@
 import socket
 from IPy import IP
 
-#scanning multiple target
+#scanning multiple targets
 def scan(target):
 
     converted_ip = check_ip(target)
@@ -31,7 +31,7 @@ def get_banner(socket):
 def scan_port (ip, port) :
     try :
 
-        #create socket descripteur
+        #create socket descriptor
         socket = socket.scoket() 
         #accelerate the scan
         socket.settimeout(0.5)
